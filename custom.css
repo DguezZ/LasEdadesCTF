@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(46, 204, 113, 0.7); /* Color verdoso con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.security-info {
+    margin-top: 20px;
+}
+
+.status {
+    color: #e74c3c; /* Color rojo para la maquina */
+}
+
+
+.location {
+    color: #e74c3c; /* Color rojo para la ubicación */
+}
+
+.username {
+    color: #e74c3c; /* Color azul para el nombre de usuario */
+}
+
+.password {
+    color: #e74c3c; /* Color azul para el nombre de usuario */
+}
+
+
